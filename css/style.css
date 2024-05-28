@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#b2f0ff,white, #ff988a);
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contenedor {
+    margin: 4vh 3.643vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.contenido {
+    border: 0.5px solid black;
+    padding: 4vh 3.643vw;
+    width: 50%;
+    background-color: #FFF;
+}
+
+.barra-lateral {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 0.911vw;
+}
+
+.seccion-logo-cabecera img {
+    width: 10.929vw; 
+}
+
+.iconos {
+    width: 1.548vw;
+    margin-left: 1.5vw;
+}
+
+.enlace {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1.821vw;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+    font-size: 1.4vw;
+}
+
+.seccion-cabecera {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen-principal {
+    width: 36.43vw;
+}
+
+.seccion-pie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seccion-texto p {
+    font-weight: bold;
+}
+
+.costo {
+    font-size: 1.3vw;
+}
+
+
+
+.seccion-boton {
+    background-color: #c8ff00;
+    border-radius: 0.9vw;
+    padding: 0.5vh 0.4vw;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.seccion-boton:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.seccion-boton img {
+    width: 10vw;
+}
+
+.texto-barra-lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.5vw;
+}
+
+
+.grupo-numeros {
+    margin-top: 9vh;
+    text-align: center;
+}
+
+.numero1 {
+    margin-bottom: 2vh;
+    color: #808080;
+}
+
+.numero1:hover,.numero2:hover,.numero3:hover {
+    color: #FFF;
+    font-size: 1.6vw;
+    cursor: pointer;
+}
+
+.numero2 {
+    margin-bottom: 2vh;
+    color: #808080;
+}
+
+.numero3 {
+    color: #808080;
+}
+
+.contenedor-icono img {
+    width: 1vw;
+}
